@@ -40,15 +40,16 @@ A tiny, production-ready microservice that classifies text as **positive**, **ne
 ---
 
 ## Project Structure
+```bash
 .
-├─ main.py # FastAPI app + Playground UI + endpoints
-├─ requirements.txt # fastapi, uvicorn[standard], transformers, torch
-├─ render.yaml # Render blueprint (build/start, env vars, disk, health)
+├─ main.py              # FastAPI app + Playground UI + endpoints
+├─ requirements.txt     # fastapi, uvicorn[standard], transformers, torch
+├─ render.yaml          # Render blueprint (build/start, env vars, disk, health)
 ├─ .gitignore
-├─ .dockerignore # if using Dockerfile
-├─ Dockerfile # optional: container deployment
+├─ .dockerignore        # if using Dockerfile
+├─ Dockerfile           # optional: container deployment
 └─ static/
-└─ style.css # UI styles
+   └─ style.css         # UI styles
 
 ---
 
