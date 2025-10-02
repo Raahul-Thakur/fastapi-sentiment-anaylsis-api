@@ -95,6 +95,7 @@ uvicorn main:app --reload --port 8000
 - Paste multiple lines (one per line), then **Batch**.
 
 **Handy batch block (paste all lines together):**
+```text
 I absolutely love this!
 This is terrible.
 It's fine.
@@ -105,6 +106,7 @@ Thanks for the quick fix, it works perfectly now!
 Revenue missed estimates and guidance was lowered.
 LOL that was actually pretty good 😂
 Meh
+```
 
 ### cURL (CLI)
 
