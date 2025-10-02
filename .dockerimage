@@ -1,0 +1,48 @@
+# VCS
+.git
+.gitignore
+.github/
+.gitlab/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local env/config not needed in image
+.env
+.env.*
+.envrc
+
+# Optional: exclude things you don't need in the container image
+# (uncomment if you add them)
+# tests/
+# docs/
+# notebooks/
+# scripts/
+# examples/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
